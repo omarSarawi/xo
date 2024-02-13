@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tic-Tac-Toe</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f9f9f9;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            border: 3px solid #2980b9;
+            width: 500px;
+            height: 500px;
+        }
+
+        td {
+            border: 3px solid #2980b9;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            vertical-align: middle;
+            background-color: #3498db;
+        }
+
+        .z {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .z:hover {
+            background-color: #2980b9;
+        }
+
+        .x {
+            visibility: hidden;
+            font-size: 80px;
+            color: #000;
+        }
+
+        .z:active .x {
+            visibility: visible;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <td>
+                    <div class="z">
+                        <button type="button" class="x">X</button>
+                    </div>
+                </td>
+                <td>
+                    <div class="z">
+                        <button type="button" class="x">X</button>
+                    </div>
+                </td>
+                <td>
+                    <div class="z">
+                        <button type="button" class="x">X</button>
+                    </div>
+                </td>
+                <td>
+                    <div class="z">
+                        <button type="button" class="x">X</button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="z">
+                        <button type="button" class="x">X</button>
+                    </div>
+                </td>
+                <td>
+                    <div class="z">
+                        <button type="button" class="x">X</button>
+                    </div>
+                </td>
+                <td>
+                    <div class="z">
+                        <button type="button" class="x">X</button>
+                    </div>
+                </td>
+                <td>
+                    <div class="z">
+                        <button type="button" class="x">X</button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="z">
+                        <button type="button" class="x">X</button>
+                    </div>
+                </td>
+                <td>
+                    <div class="z">
+                        <button type="button" class="x">X</button>
+                    </div>
+                </td>
+                <td>
+                    <div class="z">
+                        <button type="button" class="x">X</button>
+                    </div>
+                </td>
+                <td>
+                    <div class="z">
+                        <button type="button" class="x">X</button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="z">
+                        <button type="button" class="x">X</button>
+                    </div>
+                </td>
+                <td>
+                    <div class="z">
+                        <button type="button" class="x">X</button>
+                    </div>
+                </td>
+                <td>
+                    <div class="z">
+                        <button type="button" class="x">X</button>
+                    </div>
+                </td>
+                <td>
+                    <div class="z">
+                        <button type="button" class="x">X</button>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
